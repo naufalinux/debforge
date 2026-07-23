@@ -48,6 +48,7 @@ daily workflow, reproducibility guardrails, and troubleshooting.
 ```text
 DebForge/
 ├── README.md                          # you are here
+├── LICENSE                            # GPL-3.0
 ├── .gitignore                         # keeps .env and local logs out of git
 ├── docs/
 │   ├── dev-environment-debian.md      # 📖 reference: Debian-only edition
@@ -66,3 +67,9 @@ This repo currently holds environment documentation and setup automation, not ap
 code. When you scaffold an actual project from these docs (Dockerfiles, Compose files,
 `.env.example`, a `Makefile`), keep the same guardrails: pin images by digest, commit
 lockfiles, never commit `.env`, and keep dev/prod parity intact.
+
+---
+
+## 📄 License
+
+Licensed under the [GNU General Public License v3.0](LICENSE).
